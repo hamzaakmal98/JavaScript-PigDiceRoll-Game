@@ -1,35 +1,45 @@
-Pig Dice Game
-This project is a simple and interactive version of the Pig Dice Game, where two players compete to reach a certain score by rolling dice and holding their points. The game is implemented using HTML, CSS, and JavaScript, providing a straightforward and enjoyable experience.
+🎲 JavaScript Pig Dice Game
 
-Key Features:
-User Interface (UI):
+A sleek, interactive, and browser-native version of the classic Pig Dice Game. Challenge a friend to a battle of luck and strategy—know when to roll and when to hold!
 
-The game's UI is designed using HTML and styled with CSS. It features a clean and responsive layout with sections for player scores, current scores, and buttons to roll the dice, hold the score, or start a new game.
-Gameplay Mechanics:
+<div align="center"> <img src="game.png" alt="Pig Dice Game Interface" width="600"> </div>
+📖 About the Game
 
-Players take turns rolling a dice. The roll result is added to their current score unless they roll a 1, which ends their turn and resets their current score.
-Players can choose to "Hold" their score, adding their current score to their total score and passing the turn to the other player.
-The game continues until one player reaches the winning score, at which point they are declared the winner.
-Dice Roll Simulation:
+This project demonstrates the power of "Vanilla" web technologies. It is a clean, responsive application that brings the traditional dice game into the modern browser.
+🎮 Gameplay Rules
 
-The dice roll is simulated using JavaScript by generating a random number between 1 and 6.
-The result of the roll is displayed as an image of the corresponding dice face.
-Score Tracking:
+    Roll the Dice: Accumulate points in your current turn with every roll.
 
-The current and total scores for both players are tracked and updated dynamically in the UI.
-Responsive Design:
+    The "Pig" Rule: Roll a 1, and you lose all points for that turn. Your turn ends immediately!
 
-The game layout adjusts to different screen sizes, ensuring a consistent user experience across devices.
-Winning Condition:
+    Hold Your Score: Click "Hold" to bank your current points into your total score and pass the play to your opponent.
 
-The game checks if a player's score has reached or exceeded the target score. If so, that player is declared the winner, and the game resets.
-Technologies Used:
-HTML: Structures the game's content and elements.
-CSS: Provides styling for the game's interface, ensuring an appealing visual presentation.
-JavaScript: Implements the game's logic, handling dice rolls, score updates, and player turns.
-How to Play:
-Start a New Game: Click "New game" to reset the scores and begin.
-Roll the Dice: Click "Roll dice" to roll the dice and add the result to your current score.
-Hold Your Score: Click "Hold" to add your current score to your total score and pass the turn to the next player.
-Winning: The first player to reach the target score wins the game.
-This project is an excellent example of how basic web technologies can be used to create a fun and interactive game. It offers a hands-on way to learn and apply concepts related to DOM manipulation, event handling, and basic game mechanics.
+    Winning: The first player to reach the winning threshold (default: 100 points) is declared the champion.
+
+🚀 Key Features
+
+    Dynamic Score Tracking: Real-time updates for both current turn and total scores.
+
+    Visual Dice Simulation: High-quality assets represent each dice face from 1 to 6.
+
+    Responsive Design: Optimized for a consistent experience across all screen sizes.
+
+    Zero Dependencies: Runs instantly in any modern web browser without specialized runtimes.
+
+🛠️ Built With
+
+    HTML5: Structured the game elements and user interface.
+
+    CSS3: Crafted a minimalist, responsive layout with clean typography.
+
+    JavaScript: Powered the core game logic, DOM manipulation, and event handling.
+
+💻 Quick Start
+
+Clone the repository:
+```
+
+git clone https://github.com/hamzaakmal98/JavaScript-PigDiceRoll-Game.git
+
+```
+Open the game: Navigate to the folder and open index.html in your favorite browser.
