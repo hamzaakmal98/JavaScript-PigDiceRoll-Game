@@ -1,12 +1,12 @@
-🎲 JavaScript Pig Dice Game
+## 🎲 JavaScript Pig Dice Game
 
 A sleek, interactive, and browser-native version of the classic Pig Dice Game. Challenge a friend to a battle of luck and strategy—know when to roll and when to hold!
 
 <div align="center"> <img src="game.png" alt="Pig Dice Game Interface" width="600"> </div>
-📖 About the Game
+## 📖 About the Game
 
 This project demonstrates the power of "Vanilla" web technologies. It is a clean, responsive application that brings the traditional dice game into the modern browser.
-🎮 Gameplay Rules
+## 🎮 Gameplay Rules
 
     Roll the Dice: Accumulate points in your current turn with every roll.
 
@@ -16,7 +16,7 @@ This project demonstrates the power of "Vanilla" web technologies. It is a clean
 
     Winning: The first player to reach the winning threshold (default: 100 points) is declared the champion.
 
-🚀 Key Features
+## 🚀 Key Features
 
     Dynamic Score Tracking: Real-time updates for both current turn and total scores.
 
@@ -26,7 +26,7 @@ This project demonstrates the power of "Vanilla" web technologies. It is a clean
 
     Zero Dependencies: Runs instantly in any modern web browser without specialized runtimes.
 
-🛠️ Built With
+## 🛠️ Built With
 
     HTML5: Structured the game elements and user interface.
 
@@ -34,7 +34,7 @@ This project demonstrates the power of "Vanilla" web technologies. It is a clean
 
     JavaScript: Powered the core game logic, DOM manipulation, and event handling.
 
-💻 Quick Start
+## 💻 Quick Start
 
 Clone the repository:
 ```
