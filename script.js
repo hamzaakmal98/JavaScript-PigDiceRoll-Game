@@ -1,3 +1,6 @@
+// Define the winning threshold
+var WINNING_THRESHOLD = 100;
+
 var scores,roundScores,activePlayer,dice,gamePlaying;
 init();
 
@@ -44,8 +47,8 @@ if(gamePlaying){
   //update UI
   document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
 
-  //check if player won the game
-  if(scores[activePlayer]>=10) {
+  //check if player won the game (check against WINNING_THRESHOLD)
+  if(scores[activePlayer] >= WINNING_THRESHOLD) {
     document.querySelector('#name-'+activePlayer).textContent='WINNER!!!'
     document.querySelector('.dice').style.display='none';
     document.querySelector('.player-'+activePlayer+'-panel').classList.add('winner');
