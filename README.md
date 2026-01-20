@@ -3,6 +3,7 @@
 A sleek, interactive, and browser-native version of the classic Pig Dice Game. Challenge a friend to a battle of luck and strategy—know when to roll and when to hold!
 
 <div align="center"> <img src="game.png" alt="Pig Dice Game Interface" width="600"> </div>
+
 ## 📖 About the Game
 
 This project demonstrates the power of "Vanilla" web technologies. It is a clean, responsive application that brings the traditional dice game into the modern browser.
